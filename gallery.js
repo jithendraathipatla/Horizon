@@ -155,3 +155,58 @@ function show(){
 function hide(){
   document.querySelector(".textabc").style.display="none";
 }
+
+let win = $(window).width();
+console.log(win);
+
+if(win < 420){
+  $('#bc').click(function(){
+    console.log("hi");
+    $('html, body').animate({scrollTop:1250}, 'slow');
+    return false;
+  });
+  $('#fg').click(function(){
+    $('html, body').animate({scrollTop:4660}, 'slow');
+    return false;
+  });
+  
+  
+  $('#ef').click(function(){
+    $('html, body').animate({scrollTop:4050}, 'slow');
+    return false;
+  });
+  
+  $('#ij').click(function(){
+    $('html, body').animate({scrollTop:2350}, 'slow');
+    return false;
+  });
+  
+  
+  $('#cd').click(function(){
+    $('html, body').animate({scrollTop:2000}, 'slow');
+    return false;
+  });
+}
+else {
+$('#fg').click(function(){
+  $('html, body').animate({scrollTop:2360}, 'slow');
+  return false;
+});
+
+
+$('#ef').click(function(){
+  $('html, body').animate({scrollTop:2000}, 'slow');
+  return false;
+});
+
+$('#ij').click(function(){
+  $('html, body').animate({scrollTop:1400}, 'slow');
+  return false;
+});
+
+
+$('#cd').click(function(){
+  $('html, body').animate({scrollTop:1000}, 'slow');
+  return false;
+});
+}
