@@ -1081,26 +1081,14 @@
       $(function() {      
         $('.button').on('click', function(e) {
         $('.popup').toggleClass("closepopup"); 
-        $('.button').toggleClass("button-closed");
-        let value0 = document.getElementsByClassName(".popupps");
-        if(value0 === value0){
+        $('.button').toggleClass("button-closed1");
         $('.popupps').addClass("closepopup1");
-        }
-        else{
-          $('.closepopup').toggleClass("popup")
-        }
-        e.preventDefault();      
+       e.preventDefault();      
       });
         $('.buttonps').on('click', function(e) {
         $('.popupps').toggleClass("closepopup1"); 
-        $('.buttonps').toggleClass("button-closed");
-        let value = document.getElementsByClassName(".popup");
-        if(value === value){
+        $('.buttonps').toggleClass("button-closed1");
         $('.popup').addClass("closepopup");
-        }
-        else{
-          $('.closepopup').toggleClass("popup")
-        }
         e.preventDefault();      
       });
   });
