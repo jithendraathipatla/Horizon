@@ -98,14 +98,14 @@ img.hoverjj:hover{
 .popup{
   left: 0;
   position: fixed;
-  top: 25%;
+  top: 20%;
   transition: left .5s ease;
   z-index:1000;
 }
 .popupps{
   left: 0;
   position: fixed;
-  top: 65%;
+  top: 55%;
   transition: left .5s ease;
   z-index:1000;
 }
@@ -1094,4 +1094,5 @@ text-decoration: none!important;
     width:70%;
   }
 }
+
 
