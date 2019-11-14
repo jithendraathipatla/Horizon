@@ -189,7 +189,7 @@ a.button:hover{
   background-color: #039be5;
     border-bottom-right-radius: 10px;
     border-top-right-radius: 10px;
-    height: 89px;
+    height: 100px;
     padding-top: 0.5rem;
     width: 38px;
     font-weight: 500;
@@ -198,6 +198,7 @@ a.button:hover{
     line-height: 15px;
     animation: example1 2s linear infinite;
 }
+
 .btn-group button{width: 100px !important;
   color: #fff !important;
   padding: 5px !important;
@@ -207,16 +208,17 @@ a.button:hover{
   border-radius: 7px;
   margin-left: 75px;
 }
-buttonps::after{
-  font-family: 'FontAwesome';
+
+.buttonps::after{
+  font-family:'FontAwesome';
   content: '\f0a9';
   text-decoration: underline;;
   color: white !important;
   cursor: pointer;
-  font-size: 1em;
+  font-size: 1.2em;
   padding: 5px;
   border: none;
- }
+}
 
  .button-closed1::after{
   font-family: 'FontAwesome';
@@ -227,7 +229,6 @@ buttonps::after{
   border: none;
 }
 
-  
   
   input{
     width:100%;
