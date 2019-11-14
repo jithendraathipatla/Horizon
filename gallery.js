@@ -85,31 +85,33 @@ let win = $(window).width();
 if(win < 420){
   $('#bc').click(function(){
     console.log("hi");
-    $('html, body').animate({scrollTop:1250}, 'slow');
+    $('html, body').animate({scrollTop:1150}, 'slow');
     return false;
   });
   $('#fg').click(function(){
-    $('html, body').animate({scrollTop:4660}, 'slow');
+    $('html, body').animate({scrollTop:3900}, 'slow');
     return false;
   });
   
   
   $('#ef').click(function(){
-    $('html, body').animate({scrollTop:4050}, 'slow');
+    $('html, body').animate({scrollTop:3250}, 'slow');
     return false;
   });
   
   $('#ij').click(function(){
-    $('html, body').animate({scrollTop:2350}, 'slow');
+    $('html, body').animate({scrollTop:2250}, 'slow');
     return false;
   });
   
   
   $('#cd').click(function(){
-    $('html, body').animate({scrollTop:2000}, 'slow');
+    $('html, body').animate({scrollTop:1900}, 'slow');
     return false;
   });
 }
+
+
 else {
 $('#fg').click(function(){
   $('html, body').animate({scrollTop:2060}, 'slow');

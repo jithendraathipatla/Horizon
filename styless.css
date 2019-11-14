@@ -19,7 +19,7 @@ img.firstImage{
   height:350px;
 }
 img.adjusting_image{
-  height:475px !important;
+  height:350px !important;
 }
 .col-md-2{
   width:50% !important;
@@ -806,7 +806,7 @@ rounded-circle:hover{
   and (device-height: 823px) 
 {
     img.adjusting_image {
-      height: 319px !important;
+      height: 260px !important;
   }
 
 }
@@ -814,7 +814,7 @@ rounded-circle:hover{
 @media only screen and (min-width: 411px) and (max-width: 767px) { 
 
   img.adjusting_image {
-    height: 319px !important;
+    height: 260px !important;
 }
 
 }
@@ -903,6 +903,7 @@ padding:0px;
 .container2 .map{
   flex:1;
   box-shadow: 1px 2px 3px;
+  height:85vh;
 }
 
 .container2 .form{
