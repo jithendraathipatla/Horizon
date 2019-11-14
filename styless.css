@@ -123,7 +123,10 @@ img.hoverjj:hover{
 
 .closepopup{
   left: -275px;
-  
+}
+
+.closepopup1{
+  left: -275px;
 }
 .button{
   background-color: red;
@@ -573,7 +576,7 @@ img.gallery-maintain{
 }
 
 .herocomponent{
-  background-image: linear-gradient(to bottom, #add1aa60,#28b485e1), url("./Images/hero.jpg");
+  background-image: linear-gradient(to bottom, #add1aa60,#28b485e1), url("./Images/Horizon_Brochure_Tri_Fold_04_page-0001.jpg");
   position: relative;
   /* height: 80vh; */
   margin-top: 5%;
@@ -1090,3 +1093,4 @@ text-decoration: none!important;
     width:70%;
   }
 }
+
