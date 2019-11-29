@@ -6,10 +6,10 @@
 		$msg=$_POST['client_message'];
 		$to='livexcellence1@gmail.com'; // Receiver Email ID, Replace with your email ID
 		$subject='Century Horizon';
-		$message="Project_name:"."Century Horizon"."\n"."Name :".$name."\n"."Phone :".$phone."\n"."Wrote the following :"."\n\n".$msg;
+		$message="Project_name:"."Century Horizon"."\n"."Name :".$name."\n"."Phone :".$phone."\n"."Email :".$email."\n"."Wrote the following :"."\n\n".$msg;
 		$headers="From: ".$email;
 		if(mail($to, $subject, $message, $headers)){
-			echo "<h1>Sent Successfully! Thank you"." ".$name.", We will contact you shortly!</h1>";
+			echo "<h1 style=\"text-align:center\">Sent Successfully! Thank you"." ".$name.", We will contact you shortly!</h1>";
 			echo '<h3 style="text-align:center"><a href="https://drive.google.com/open?id=11Fl3bN_M_7_kzMqoND6tdJr4_LnEL4RR">Click here to download Brochure</a><h3>';
 			echo '<h3 style="text-align:center"><a href="https://drive.google.com/open?id=1b03J2U_AGPZA6DrxCldFMhucSFRUZxeM">Click here to download Cost Sheet</a><h3>';
 		
